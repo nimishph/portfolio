@@ -1,0 +1,142 @@
+body {
+  font-size: 16px;
+  color: #200a75;
+  text-shadow: 0 0 1px rgb(255, 255, 255, 0.3);
+  background-color: #e5e5e5;
+  font-family: "Sirin Stencil", "Segoe Print", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #002e63;
+  transition: all ease 0.2s;
+
+  &:hover {
+    color: rgb(0, 127, 255);
+    text-shadow: 1px -1px 2px rgba(0, 130, 255, 0.6);
+  }
+}
+
+ul {
+  padding: 16px;
+}
+
+.list-style-dash li {
+  list-style-type: "- ";
+}
+.list-style-none li {
+  list-style-type: none;
+}
+
+.card {
+  margin: 5%;
+  padding: 64px;
+  border-radius: 24px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    -225deg,
+    #ffe29f 0%,
+    #ffa99f 48%,
+    #ff719a 100%
+  );
+}
+
+.card-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  div {
+    width: fit-content;
+  }
+
+  .name {
+    font-size: 3em;
+    margin: 0;
+  }
+  .designation {
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  li {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+
+  .icon {
+    padding-left: 8px;
+  }
+}
+
+.card-body {
+  margin-top: 32px;
+  display: flex;
+  flex-flow: row nowrap;
+  .content {
+    margin-bottom: 16px;
+  }
+
+  .left {
+    flex-basis: 40%;
+    .content-title {
+      padding: 8px 0 0 16px;
+      border-top-left-radius: 1em;
+      border-bottom-left-radius: 1em;
+    }
+  }
+  .right {
+    flex-basis: 60%;
+    .content-title {
+      padding: 8px 0 0 16px;
+      border-top-right-radius: 1em;
+      border-bottom-right-radius: 1em;
+    }
+  }
+
+  .content-title {
+    font-size: 1.6em;
+  }
+  .content-body {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .skillType {
+    text-transform: capitalize;
+  }
+  .skillContent {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.border-top {
+  border-top: 0.1em solid #034188;
+}
+.border-right {
+  border-right: 0.1em solid #034188;
+}
+.border-left {
+  border-left: 0.1em solid #034188;
+}
+.border-bottom {
+  border-bottom: 0.1em solid #034188;
+}

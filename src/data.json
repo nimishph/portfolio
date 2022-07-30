@@ -1,0 +1,31 @@
+{
+  "name": "Nimish Phalnikar",
+  "designation": "Software Engineer",
+  "company": "Cimpress India [VistaPrint India]",
+  "company-linkedin": "https://in.linkedin.com/company/vistaprint-india",
+  "email": "nimish.ph4@gmail.com",
+  "linkedin": "linkedin.com/in/nimishph",
+  "github": "github.com/nimishph",
+  "education": {
+    "degree": "Bachelor of Technology",
+    "major": "Computer Science and Engineering",
+    "institute-name": "Indian Institute of Information Technology, Nagpur",
+    "institute-website": "https://www.iiitn.ac.in",
+    "cgpa": "8.65",
+    "period": "2018-2022"
+  },
+  "skills": {
+    "languages": [
+      ["Python", "python"],
+      ["Javascript", "js-square"]
+    ],
+    "frameworks": [["Angular", "angular"]],
+    "libraries": [
+      ["React", "react"],
+      ["Bootstrap", "bootstrap"],
+      ["Node", "node"]
+    ],
+    "version-control": [["Git", "git-alt"]]
+  },
+  "interests": ["Travelling", "Movies", "Sports"]
+}
